@@ -1,0 +1,13 @@
+[package]
+name = "project-init"
+version = "0.1.0"
+edition = "2024"
+
+# This preset is tuned for maximum performance.
+# Feel free to tune the options if you prefer to optimize for file size or compilation time.
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = 3
+
+[dependencies]
