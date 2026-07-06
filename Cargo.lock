@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "project-init"
-version = "0.1.0"
+name = "endo-init"
+version = "0.0.0"
