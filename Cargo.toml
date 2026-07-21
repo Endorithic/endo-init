@@ -11,3 +11,4 @@ lto = "fat"
 opt-level = 3
 
 [dependencies]
+owo-colors = "4.3.0"
